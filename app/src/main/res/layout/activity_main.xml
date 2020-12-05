@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd300"
+    tools:context=".UI.MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Advanced Reboot\nMenu"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/simpleRebootButton"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_custom"
+        android:text="Reboot"
+        android:textColor="#ffd300"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/recoveryRebootButton"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/simpleRebootButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_custom"
+        android:text="Recovery"
+        android:textColor="#ffd300"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/fastbootRebootButton"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/recoveryRebootButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_custom"
+        android:text="Fastboot"
+        android:textColor="#ffd300"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bootloaderRebootButton"
+        android:layout_width="125dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/fastbootRebootButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_custom"
+        android:text="Bootloader"
+        android:textColor="#ffd300"
+        android:textSize="19sp" />s
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="125dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/bootloaderRebootButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_custom"
+        android:text="Exit"
+        android:textColor="#ffd300"
+        android:textSize="19sp" />
+
+
+</RelativeLayout>
